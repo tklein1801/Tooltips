@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tooltips</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./tooltip.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1
+        style="font-size: 3rem; margin-bottom: 1rem;"
+        data-toggle="tooltip"
+        data-placement="top"
+        data-content="Big Tooltip :D"
+      >
+        Tooltips
+      </h1>
+      <button data-toggle="tooltip" data-placement="top" data-content="TOP">
+        Top
+      </button>
+      <button data-toggle="tooltip" data-placement="right" data-content="RIGHT">
+        Right
+      </button>
+      <button
+        data-toggle="tooltip"
+        data-placement="bottom"
+        data-content="BOTTOM"
+      >
+        Bottom
+      </button>
+      <button data-toggle="tooltip" data-placement="left" data-content="LEFT">
+        Left
+      </button>
+
+      <div
+        style="
+          width: 100px;
+          height: 100px;
+          background-color: transparent;
+          border: 3px solid white;
+          border-radius: 5px;
+        "
+        data-toggle="tooltip"
+        data-placement="top"
+        data-content="Works on divs to :o"
+      ></div>
+    </div>
+  </body>
+</html>

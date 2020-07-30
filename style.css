@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #28a745;
+  font-family: monospace;
+  color: white;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Default button styling*/
+button {
+  position: relative;
+  padding: 1rem 4rem;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  font-size: 1rem;
+  color: white;
+  border: 3px solid white;
+  border-radius: 5px;
+}
+button:hover {
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background-color: white;
+  color: #333333;
+}
+
+@media (max-width: 598px) {
+  button {
+    width: 80%;
+    margin: 0 auto 1rem auto;
+  }
+}
